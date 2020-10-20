@@ -13,6 +13,7 @@
 		83674F84253F8EDA0008C844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83674F82253F8EDA0008C844 /* Main.storyboard */; };
 		83674F86253F8EDB0008C844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83674F85253F8EDB0008C844 /* Assets.xcassets */; };
 		83674F89253F8EDB0008C844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83674F87253F8EDB0008C844 /* LaunchScreen.storyboard */; };
+		83674F94253F9A870008C844 /* zion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83674F93253F9A870008C844 /* zion.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83674F85253F8EDB0008C844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83674F88253F8EDB0008C844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83674F8A253F8EDB0008C844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83674F93253F9A870008C844 /* zion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zion.jpg; path = GrailDiary/Assets.xcassets/zion.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,19 @@
 				83674F80253F8EDA0008C844 /* POIsTableViewController.swift */,
 				83674F82253F8EDA0008C844 /* Main.storyboard */,
 				83674F85253F8EDB0008C844 /* Assets.xcassets */,
+				83674F92253F9A6C0008C844 /* Assets */,
 				83674F87253F8EDB0008C844 /* LaunchScreen.storyboard */,
 				83674F8A253F8EDB0008C844 /* Info.plist */,
 			);
 			path = GrailDiary;
+			sourceTree = "<group>";
+		};
+		83674F92253F9A6C0008C844 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83674F93253F9A870008C844 /* zion.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 				83674F89253F8EDB0008C844 /* LaunchScreen.storyboard in Resources */,
 				83674F86253F8EDB0008C844 /* Assets.xcassets in Resources */,
 				83674F84253F8EDA0008C844 /* Main.storyboard in Resources */,
+				83674F94253F9A870008C844 /* zion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
